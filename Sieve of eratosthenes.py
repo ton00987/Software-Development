@@ -71,32 +71,3 @@ while p ** 2 < last_number:
 print(origin)
 
 root.mainloop()
-#class UI(object):
-#    def __init__(self):
-#        y_column = int(last_number / 10) + 1
-#        print(y_column)
-#        self.root = Tk()
-#        self.root.title('Sieve of eratosthenes')
-#        self.all_text = []
-#        num = 0
-#        for j in range(y_column):
-#            for i in range(10):
-#                self.all_text.append(Label(self.root, text=num+1, bg='light gray', width=5, height=2, relief='groove'))
-#                self.all_text[num].grid(row=j, column=i)
-#                num += 1
-
-#        self.change_bg()
-#        self.root.mainloop()
-
-#    def change_bg(self):
-#        self.all_text[0].config(bg='blue')
-#        self.root.update()
-#        time.sleep(5)
-#        self.all_text[2].config(bg='blue')
-#        self.root.update()
-#        time.sleep(5)
-#        self.all_text[4].config(bg='blue')
-#        self.root.update()
-#        time.sleep(5)
-
-#UI()
