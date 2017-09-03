@@ -11,8 +11,6 @@ for i in range(var):
     for j in range(var+1):
         matrix_A[i].append(int(input(string.ascii_lowercase[j] + str(i) + ': ')))
 
-#print(matrix_A)
-
 print()
 print('Matrix')
 
